@@ -82,7 +82,7 @@ bookingForm?.addEventListener('submit', (event) => {
     data.get('message') || '',
   ];
 
-  const mailto = new URL('mailto:pannanikaklet@gmail.com');
+  const mailto = new URL('mailto:boka@pannanikaklet.se');
   mailto.searchParams.set('subject', subject);
   mailto.searchParams.set('body', rows.join('\n'));
 
