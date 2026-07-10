@@ -35,7 +35,7 @@ const statusLine = document.querySelector('[data-form-status]');
 const placeholders = {
   Bandet: 'Berätta om eventet, önskad speltid och eventuella låtönskemål...',
   'PA-hyra': 'Berätta vilken PA-lösning du vill hyra, datum, tider och transportbehov...',
-  Merch: 'Skriv vilka produkter, storlekar och antal du vill beställa...',
+  Merch: 'Merchen släpps snart. Skriv gärna om du är intresserad av T-shirt eller Coaster...',
 };
 
 intentTabs.forEach((tab) => {
@@ -45,13 +45,6 @@ intentTabs.forEach((tab) => {
     if (intentField) intentField.value = intent;
     if (messageField) messageField.placeholder = placeholders[intent] || placeholders.Bandet;
     if (statusLine) statusLine.textContent = `Förfrågan gäller: ${intent}. Vi svarar normalt inom 48 timmar.`;
-  });
-});
-
-document.querySelectorAll('.merch-list a').forEach((link) => {
-  link.addEventListener('click', () => {
-    const merchTab = document.querySelector('[data-intent="Merch"]');
-    merchTab?.dispatchEvent(new Event('click'));
   });
 });
 
