@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="P.I.K - Pannan I Kaklet. Coverband från Strängnäs. Boka bandet, hyr PA-anläggning och beställ merch."
+    />
+    <title>P.I.K - Pannan I Kaklet | Boka bandet, hyr PA & köp merch</title>
+    <meta property="og:title" content="P.I.K - Pannan I Kaklet" />
+    <meta
+      property="og:description"
+      content="Coverband från Strängnäs. Boka bandet, hyr PA och beställ officiell merch."
+    />
+    <meta property="og:image" content="./assets/pik-logo.jpg" />
+    <link rel="icon" href="./assets/pik-logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="P.I.K - Pannan I Kaklet">
+        <span class="brand-mark">P.I.K</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primär navigering">
+        <a href="#om">Om</a>
+        <a href="#spelningar">Spelningar</a>
+        <a href="#boka">Boka</a>
+        <a href="#pa">PA-hyra</a>
+        <a href="#merch">Merch</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+
+      <a class="header-cta" href="#boka">Boka bandet</a>
+
+      <button class="nav-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Öppna meny" title="Öppna meny">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <nav class="mobile-nav" id="mobile-nav" data-mobile-nav aria-label="Mobil navigering">
+        <a href="#om">Om</a>
+        <a href="#spelningar">Spelningar</a>
+        <a href="#boka">Boka</a>
+        <a href="#pa">PA-hyra</a>
+        <a href="#merch">Merch</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <h1 id="hero-title" class="sr-only">P.I.K - Pannan I Kaklet</h1>
+          <img class="hero-logo" src="./assets/pik-logo.jpg" alt="P.I.K - Pannan I Kaklet" />
+          <p class="hero-kicker">Coverband · Strängnäs · Sedan 2018</p>
+          <p class="hero-copy">
+            Vi drar igång festen med kända indie-, pop- och rocklåtar. Från intima klubbar
+            till bröllop och företagsevent - vi levererar ljudet, energin och dansgolvet.
+          </p>
+          <div class="hero-actions" aria-label="Snabblänkar">
+            <a class="btn btn-primary" href="#boka">
+              <i data-lucide="ticket"></i>
+              Boka bandet
+            </a>
+            <a class="btn btn-outline" href="#spelningar">
+              <i data-lucide="calendar-days"></i>
+              Kommande spelningar
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-split" id="om" aria-labelledby="om-title">
+        <div class="container split-layout">
+          <div>
+            <p class="eyebrow">// Om bandet</p>
+            <h2 id="om-title">Fem musiker.<br />En setlist som får taket att lyfta.</h2>
+          </div>
+          <div class="copy-stack">
+            <p>
+              <strong>P.I.K - Pannan I Kaklet</strong> är ett femmannaband från Strängnäs som
+              spelat tillsammans sedan 2018. Vi tolkar och tar oss an de största indie-, pop-
+              och rocklåtarna - allt från Kent till Arctic Monkeys, från Elvis till Foo Fighters.
+            </p>
+            <p>
+              Oavsett om det är festival, bröllop, 50-årskalas eller kickoff anpassar vi
+              setlisten efter kvällen. Vi kommer med egen PA-utrustning och sköter ljudet själva.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-banded" id="spelningar" aria-labelledby="spelningar-title">
+        <div class="container">
+          <div class="section-head two-col-head">
+            <div>
+              <p class="eyebrow">// Tour</p>
+              <h2 id="spelningar-title">Kommande spelningar</h2>
+            </div>
+            <p>
+              Kolla in var vi drar loss härnäst. Vill du ha oss på ditt event?
+              <a href="#boka">Skicka en förfrågan</a>.
+            </p>
+          </div>
+
+          <article class="gig-row">
+            <div class="date-block" aria-label="11 juli">
+              <span>11</span>
+              <small>Juli</small>
+            </div>
+            <div class="gig-main">
+              <h3>Il Porto Restaurang</h3>
+              <p><i data-lucide="map-pin"></i> Strängnäs</p>
+              <p><i data-lucide="clock-3"></i> kl. 21:00</p>
+            </div>
+            <span class="tag">Publik</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="boka" aria-labelledby="boka-title">
+        <div class="container narrow">
+          <div class="section-head centered">
+            <p class="eyebrow">// Förfrågan</p>
+            <h2 id="boka-title">Boka bandet</h2>
+            <p>Berätta lite om ditt event så återkommer vi med offert inom 48 timmar.</p>
+          </div>
+
+          <div class="intent-tabs" role="tablist" aria-label="Välj förfrågan">
+            <button class="intent-tab is-active" type="button" data-intent="Bandet">
+              <i data-lucide="music-2"></i>
+              Bandet
+            </button>
+            <button class="intent-tab" type="button" data-intent="PA-hyra">
+              <i data-lucide="speaker"></i>
+              PA-hyra
+            </button>
+            <button class="intent-tab" type="button" data-intent="Merch">
+              <i data-lucide="shopping-bag"></i>
+              Merch
+            </button>
+          </div>
+
+          <form class="booking-form" data-booking-form>
+            <input type="hidden" name="intent" value="Bandet" data-intent-field />
+            <div class="form-grid">
+              <label>
+                <span>Namn *</span>
+                <input name="name" autocomplete="name" required />
+              </label>
+              <label>
+                <span>E-post *</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+              <label>
+                <span>Telefon</span>
+                <input name="phone" autocomplete="tel" />
+              </label>
+              <label>
+                <span>Datum</span>
+                <input type="date" name="date" />
+              </label>
+              <label>
+                <span>Plats / stad</span>
+                <input name="place" autocomplete="address-level2" />
+              </label>
+              <label>
+                <span>Antal gäster (ca)</span>
+                <input type="number" name="guests" min="1" inputmode="numeric" />
+              </label>
+            </div>
+
+            <label>
+              <span>Meddelande</span>
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Berätta om eventet, önskad speltid och eventuella låtönskemål..."
+              ></textarea>
+            </label>
+
+            <div class="form-footer">
+              <p data-form-status>Vi svarar normalt inom 48 timmar.</p>
+              <button class="btn btn-primary" type="submit">
+                <i data-lucide="send"></i>
+                Skicka förfrågan
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section section-banded media-section" id="pa" aria-labelledby="pa-title">
+        <div class="container media-grid">
+          <figure class="image-frame">
+            <img src="./assets/pa-system.jpg" alt="PA-anläggning med mixerbord" loading="lazy" />
+          </figure>
+          <div>
+            <p class="eyebrow">// Uthyrning</p>
+            <h2 id="pa-title">Hyr vår PA-anläggning</h2>
+            <p class="lead">
+              Behöver du kraftfullt ljud till festen, konferensen eller spelningen? Vi hyr ut
+              vår kompletta PA - samma rigg vi använder på scen. Ljudtekniker och chaufför
+              bokas på förfrågan.
+            </p>
+            <div class="price-list">
+              <article>
+                <div>
+                  <h3>Fullt PA-paket</h3>
+                  <p>2 aktiva fullrangehögtalare + 2 aktiva 18&quot; subwoofers + 18-kanals mixer</p>
+                </div>
+                <strong>3 000 kr</strong>
+              </article>
+              <article>
+                <div>
+                  <h3>Topp-paket</h3>
+                  <p>2 aktiva fullrangehögtalare + 2 sångmikrofoner</p>
+                </div>
+                <strong>1 000 kr</strong>
+              </article>
+              <article>
+                <div>
+                  <h3>Ljudtekniker / chaufför</h3>
+                  <p>Kontakta oss för pris vid behov av tekniker eller transport</p>
+                </div>
+              </article>
+            </div>
+            <a class="text-link" href="#boka">Skicka hyresförfrågan</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section merch-section" id="merch" aria-labelledby="merch-title">
+        <div class="container">
+          <div class="section-head two-col-head">
+            <div>
+              <p class="eyebrow">// Merch</p>
+              <h2 id="merch-title">Bär bandet</h2>
+            </div>
+            <p>
+              Officiell P.I.K-merch. Skicka en förfrågan via formuläret så fixar vi betalning
+              och leverans / avhämtning.
+            </p>
+          </div>
+
+          <div class="merch-grid">
+            <div class="merch-visual">
+              <figure class="image-frame">
+                <img src="./assets/merch.jpg" alt="P.I.K bandmerch - t-shirt, hoodie och pin" loading="lazy" />
+              </figure>
+              <div class="drop-note">
+                <h3>Drop 2026 · Ute nu</h3>
+                <p>Limiterade upplagor. När de är slut är de slut.</p>
+              </div>
+            </div>
+
+            <div class="merch-list">
+              <article>
+                <div>
+                  <h3>P.I.K Klassisk T-shirt</h3>
+                  <p>Svart tee, tryck fram + rygg</p>
+                </div>
+                <strong>249 kr</strong>
+                <a href="#boka">Beställ</a>
+              </article>
+              <article>
+                <div>
+                  <h3>Tour Hoodie 2026</h3>
+                  <p>Tjock hoodie med brodyr</p>
+                </div>
+                <strong>599 kr</strong>
+                <a href="#boka">Beställ</a>
+              </article>
+              <article>
+                <div>
+                  <h3>Logga-keps</h3>
+                  <p>Snapback, svart på svart</p>
+                </div>
+                <strong>199 kr</strong>
+                <a href="#boka">Beställ</a>
+              </article>
+              <article>
+                <div>
+                  <h3>Vinyl - Live at Kraken</h3>
+                  <p>Limiterad 180g röd vinyl</p>
+                </div>
+                <strong>349 kr</strong>
+                <a href="#boka">Beställ</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-banded contact-section" id="kontakt" aria-labelledby="kontakt-title">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">// Kontakt</p>
+            <h2 id="kontakt-title">Hör av dig</h2>
+            <p>
+              Snabbast får du svar via bokningsformuläret. Följ oss gärna på sociala medier
+              för klipp från spelningar.
+            </p>
+          </div>
+          <address class="contact-links">
+            <a href="mailto:pannanikaklet@gmail.com">
+              <i data-lucide="mail"></i>
+              pannanikaklet@gmail.com
+            </a>
+            <a href="tel:+46700000000">
+              <i data-lucide="phone"></i>
+              070 - 000 00 00
+            </a>
+            <div class="socials">
+              <a href="#" aria-label="Instagram" title="Instagram"><i data-lucide="instagram"></i></a>
+              <a href="#" aria-label="Facebook" title="Facebook"><i data-lucide="facebook"></i></a>
+            </div>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Pannan I Kaklet - Strängnäs</p>
+        <p>Coverband · Boka · Hyr PA · Merch</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+    <script src="./src/main.js" defer></script>
+  </body>
+</html>
