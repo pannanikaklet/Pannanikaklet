@@ -18,4 +18,5 @@ python3 -m http.server 5173
 4. Pusha en ändring till `main`, eller kör workflowet `Deploy to GitHub Pages` manuellt.
 
 Bokningsformuläret skickas via FormSubmit till `pannanikaklet@gmail.com`.
+Besökaren får ett automatiskt bekräftelsemail till adressen de anger i fältet `E-post`.
 Första gången formuläret skickas från den publicerade sidan skickar FormSubmit ett verifieringsmail till adressen som behöver godkännas.
